@@ -1,7 +1,10 @@
-function getElementWidth(content, padding, border) {
-    const contentWidth = parseInt(content);
-    const paddingWidth = 2 * parseFloat(padding);
-    const borderWidth = 2 * parseInt(border);
+const person = { 
+    name: "krzysiek",
+    surname: "Dabrowski",
+};
 
-    return contentWidth + paddingWidth + borderWidth;
+for (const property in person) {
+    console.log(property);
+    console.log(person[property]);
+
 }
